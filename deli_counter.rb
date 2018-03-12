@@ -22,5 +22,3 @@ def now_serving(katz_deli)
   end
 end
 
-# try .shift from short cut foo cheatsheet bookmarked
-# used .drop to try
