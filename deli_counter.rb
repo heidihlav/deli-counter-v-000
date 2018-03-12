@@ -17,9 +17,10 @@ end
 def now_serving(katz_deli)
   if katz_deli.empty?
     puts "There is nobody waiting to be served!"
-  elsif new_line = katz_deli.drop(1)
+  elsif new_line = katz_deli.shift
     puts "Currently serving #{new_line}."
   end
 end
 
 # try .shift from short cut foo cheatsheet bookmarked
+# used .drop to try
