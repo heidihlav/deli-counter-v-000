@@ -21,3 +21,5 @@ def now_serving(katz_deli)
     puts "Currently serving #{new_line}."
   end
 end
+
+# try .shift from short cut foo cheatsheet bookmarked
